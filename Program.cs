@@ -18,21 +18,33 @@ namespace kudvekat1
 
             Console.WriteLine("Hello {0}, {1}", UserName,LastName);
             //Console.WriteLine("hello " + UserName);
+            Console.ReadLine();
 
-            bool? AreYouAMajor = null;
+           // bool? AreYouAMajor = null;
 
-            if (AreYouAMajor == true)
+           // if (AreYouAMajor == true)
             {
-                Console.WriteLine("user is a major");
+              //  Console.WriteLine("user is a major");
             }
-            else if (AreYouAMajor == false)
+           // else if (AreYouAMajor == false)
             {
-                Console.WriteLine("user is not a major");
+                //Console.WriteLine("user is not a major");
             }
-            else
+           // else
             {
-                Console.WriteLine("user did not answer the question");
+               // Console.WriteLine("user did not answer the question");
             }
+
+            int[] EvenNumbers = new int[5];
+
+            EvenNumbers[0] = 0;
+            EvenNumbers[1] = 2;
+            EvenNumbers[2] = 4;
+            EvenNumbers[3] = 6;
+            EvenNumbers[4] = 8;
+
+            Console.WriteLine(EvenNumbers[0]);
+
         }
     }
 }
