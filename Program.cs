@@ -35,15 +35,25 @@ namespace kudvekat1
                // Console.WriteLine("user did not answer the question");
             }
 
-            int[] EvenNumbers = new int[5];
+            /* int[] EvenNumbers = new int[5];
 
-            EvenNumbers[0] = 0;
-            EvenNumbers[1] = 2;
-            EvenNumbers[2] = 4;
-            EvenNumbers[3] = 6;
-            EvenNumbers[4] = 8;
+             EvenNumbers[0] = 0;
+             EvenNumbers[1] = 2;
+             EvenNumbers[2] = 4;
+             EvenNumbers[3] = 6;
+             EvenNumbers[4] = 8;
 
-            Console.WriteLine(EvenNumbers[0]);
+             Console.WriteLine(EvenNumbers[0]); */
+
+            Console.WriteLine("Please enter your target number :");
+            int UserNum = int.Parse(Console.ReadLine());
+            int start = 0;
+
+            while(start <= UserNum) 
+            {
+                Console.WriteLine(start);
+                start = start + 2;
+            }
 
         }
     }
