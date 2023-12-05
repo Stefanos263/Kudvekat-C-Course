@@ -11,28 +11,28 @@ namespace kudvekat1
         static void Main(string[] args)
         {
             Console.WriteLine("Please enter your firstname :");
-           String UserName = Console.ReadLine();
+            String UserName = Console.ReadLine();
 
             Console.WriteLine("Please enter your lastname :");
             String LastName = Console.ReadLine();
 
-            Console.WriteLine("Hello {0}, {1}", UserName,LastName);
+            Console.WriteLine("Hello {0}, {1}", UserName, LastName);
             //Console.WriteLine("hello " + UserName);
             Console.ReadLine();
 
-           // bool? AreYouAMajor = null;
+            // bool? AreYouAMajor = null;
 
-           // if (AreYouAMajor == true)
+            // if (AreYouAMajor == true)
             {
-              //  Console.WriteLine("user is a major");
+                //  Console.WriteLine("user is a major");
             }
-           // else if (AreYouAMajor == false)
+            // else if (AreYouAMajor == false)
             {
                 //Console.WriteLine("user is not a major");
             }
-           // else
+            // else
             {
-               // Console.WriteLine("user did not answer the question");
+                // Console.WriteLine("user did not answer the question");
             }
 
             /* int[] EvenNumbers = new int[5];
@@ -45,16 +45,16 @@ namespace kudvekat1
 
              Console.WriteLine(EvenNumbers[0]); */
 
-            Console.WriteLine("Please enter your target number :");
-            int UserNum = int.Parse(Console.ReadLine());
-            int start = 0;
+            //Console.WriteLine("Please enter your target number :");
+            //int UserNum = int.Parse(Console.ReadLine());
+            //int start = 0;
 
-            while(start <= UserNum) 
-            {
-                Console.WriteLine(start);
-                start = start + 2;
-            }
+            //while (start <= UserNum)
+            //{
+            //    Console.WriteLine(start);
+            //    start = start + 2;
+            //}
 
-        }
+        }   
     }
 }
