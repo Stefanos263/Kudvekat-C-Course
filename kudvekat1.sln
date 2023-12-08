@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kudvenkat Namespaces", "..\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kudvenkat Classes", "..\Kudvenkat Classes\Kudvenkat Classes.csproj", "{490DE757-D3C5-4D76-88A1-E91B42D5BA09}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kudvenkat Inheritance", "..\Kudvenkat Inheritance\Kudvenkat Inheritance.csproj", "{6937BD16-169E-4ED4-90B1-584649017B30}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kudvenkat Polymorphism", "..\Kudvenkat Polymorphism\Kudvenkat Polymorphism.csproj", "{B172950C-42CF-48E1-A224-919AE77AE484}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{490DE757-D3C5-4D76-88A1-E91B42D5BA09}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{490DE757-D3C5-4D76-88A1-E91B42D5BA09}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{490DE757-D3C5-4D76-88A1-E91B42D5BA09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6937BD16-169E-4ED4-90B1-584649017B30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6937BD16-169E-4ED4-90B1-584649017B30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6937BD16-169E-4ED4-90B1-584649017B30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6937BD16-169E-4ED4-90B1-584649017B30}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B172950C-42CF-48E1-A224-919AE77AE484}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B172950C-42CF-48E1-A224-919AE77AE484}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B172950C-42CF-48E1-A224-919AE77AE484}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B172950C-42CF-48E1-A224-919AE77AE484}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
